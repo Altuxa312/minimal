@@ -1,0 +1,689 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+
+.logo h1{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu ul{
+    display: flex;
+    gap: 10rem;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.3s;
+}
+
+.section{
+    background-image: url(/img/IMAGE\ \(1\).png);
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hr{
+    line-height: 10px;
+    height: 1px;
+    width: 150px;
+    color: #f6f6f6;
+    background-color: #f6f6f6;
+}
+ 
+.soz{
+    text-align: center;
+}
+.soz h1{
+    font-size: 100px;
+    color: #f6f6f6;
+}
+
+.soz span{
+    font-size: 50px;
+    color: #f6f6f6;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: #FEFEC9;
+    height: 500PX;
+}
+
+.sozdor{
+   text-align: center;
+}
+
+.sozdor p{
+    margin: 0;
+    font-size: 30px;
+}
+
+.cnopka{
+
+    margin-top: 100px;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container{
+    height: 600px;
+}
+
+.tema h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+
+}
+
+.hr_1{
+    height: 1PX;
+    width: 100px;
+    color: #f6f6f6;
+}
+
+.blok{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+
+}
+
+.mine{
+    text-align: center;
+}
+
+.mine img{
+    background-color: #dbdbdb;
+    padding: 50px 80px;
+}
+
+.mine h1{
+    font-size: 30px;
+}
+
+.mine span{
+    font-size: 20px;
+}
+
+.foo img{
+    background-color: #dbdbdb;
+    padding: 50px 80px;
+}
+
+.foo{
+    text-align: center;
+}
+
+.foo h1{
+    font-size: 30px;
+}
+
+.foo span{
+    font-size: 20px;
+}
+
+.tiem{
+    text-align: center;
+}
+
+.tiem img{
+    background-color: #dbdbdb;
+    padding: 50px 80px;
+}
+
+.tiem h1{
+    font-size: 30px;
+}
+
+.tiem span{
+    font-size: 20px;
+}
+
+.true{
+    background-color: #F5F5F5;
+    height: 1500px;
+}
+
+.bir h1{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.line{
+    width: 100px;
+    height: 1px;
+    color: #f6f6f6;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin-top: 50px;
+}
+
+.tema_1{
+    text-align: center;
+}
+
+.tema_1 h1{
+    margin: 0;
+    font-size: 40px;
+    background-color: #fff;
+}
+
+.tema_1 span{
+    margin: 0;
+    background-color: #fff;
+    padding: 10px 75px;
+    font-size: 30px;
+}
+
+.tema_2{
+    text-align: center;
+}
+
+.tema_2 h1{
+    margin: 0;
+    font-size: 40px;
+    background-color: #fff;
+}
+
+.tema_2 span{
+    margin: 0;
+    background-color: #fff;
+    padding: 1px 15px;
+    font-size: 30px;
+}
+
+.tema_3{
+    text-align: center;
+}
+
+.tema_3 h1{
+    margin: 0;
+    font-size: 40px;
+    background-color: #fff;
+}
+
+.tema_3 span{
+    margin: 0;
+    background-color: #fff;
+    padding: 1px 100px;
+    font-size: 30px;
+}
+
+.troya{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin-top: 50px;
+}
+
+.tema_4{
+    text-align: center;
+}
+
+.tema_4 h1{
+    margin: 0;
+    font-size: 40px;
+    background-color: #fff;
+}
+
+.tema_4 span{
+    margin: 0;
+    background-color: #fff;
+    padding: 1px 75px;
+    font-size: 30px;
+}
+
+.tema_5{
+    text-align: center;
+}
+
+.tema_5 h1{
+    margin: 0;
+    font-size: 40px;
+    background-color: #fff;
+}
+
+.tema_5 span{
+    margin: 0;
+    background-color: #fff;
+    padding: 1px 105px;
+    font-size: 30px;
+}
+
+.tema_6{
+    text-align: center;
+}
+
+.tema_6 h1{
+    margin: 0;
+    font-size: 40px;
+    background-color: #fff;
+}
+
+.tema_6 span{
+    margin: 0;
+    background-color: #fff;
+    padding: 1px 105px;
+    font-size: 30px;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin-top: 50px;
+}
+
+.tema_7{
+    text-align: center;
+}
+
+.tema_7 h1{
+    margin: 0;
+    font-size: 40px;
+    background-color: #fff;
+}
+
+.tema_7 span{
+    margin: 0;
+    background-color: #fff;
+    padding: 1px 105px;
+    font-size: 30px;
+}
+
+.tema_8{
+    text-align: center;
+}
+
+.tema_8 h1{
+    margin: 0;
+    font-size: 40px;
+    background-color: #fff;
+}
+
+.tema_8 span{
+    margin: 0;
+    background-color: #fff;
+    padding: 1px 105px;
+    font-size: 30px;
+}
+
+.tema_9{
+    text-align: center;
+}
+
+.tema_9 h1{
+    margin: 0;
+    font-size: 40px;
+    background-color: #fff;
+}
+
+.tema_9 span{
+    margin: 0;
+    background-color: #fff;
+    padding: 1px 105px;
+    font-size: 30px;
+}
+
+.five{
+    height: 625px;
+}
+
+.zagol h1{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.hrr{
+    height: 1px;
+    width: 100px;
+}
+
+.alty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 50px;
+}
+
+.tema_10{
+    text-align: center;
+}
+
+.tema_11{
+    text-align: center;
+}
+
+.tema_12{
+    text-align: center;
+}
+
+.tema_13{
+    text-align: center;
+}
+
+.birbalya{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.slot{
+    display: flex;
+    text-align: center;
+    gap: 2rem;
+}
+
+.slot img{
+    background-color:
+    #F5F5F5;
+    padding: 7px;
+}
+
+.sevan{
+    display: flex;
+    text-align: center;
+    gap: 2rem;
+}
+
+.sevan img{
+    background-color:#F5F5F5;
+    padding: 7px;
+}
+
+.inner{
+    display: flex;
+    text-align: center;
+    gap: 2rem;
+}
+
+.inner img{
+    background-color:#F5F5F5;
+    padding: 7px;
+}
+
+.line{
+    display: flex;
+    text-align: center;
+    gap: 2rem;
+}
+
+.line img{
+    background-color:#F5F5F5;
+    padding: 8px;
+}
+
+.ck{
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+.kovychka{
+    padding-top: 50px;
+}
+
+.para{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.text{
+    margin-left: 500px;
+}
+.text h1{
+    font-size: 30px;
+}
+
+.text h3{
+    font-size: 24px;
+    color: #ABABAB;
+}
+
+.vertikalka{
+    transform: rotate(-90deg);
+    width: 250px;
+    border: 1px solid;
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.texty{
+    margin-right: 500px;
+}
+
+.texty h1{
+    font-size: 30px;
+}
+
+.texty h3{
+    font-size: 24px;
+    color: #ABABAB;
+}
+
+.goluboy{
+    background-image: url(/img/IMAGE\ \(21\).png);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.zogolovok{
+    text-align: center;
+}
+ 
+.zogolovok h1{
+    margin: 0;
+    padding-top: 100px;
+    font-size: 30px;
+}
+.cherta{
+    width: 100px;
+    height: 1px;
+    margin-top: 25px;
+    background-color: black;
+}
+
+.siniy{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.tema_27{
+    text-align: center;
+}
+
+.tema_27 h3{
+    line-height: 35px;
+}
+
+.tema_28{
+    text-align: center;
+}
+.tema_28 a{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+
+.tema_29{
+    text-align: center;
+}
+
+.tema_29 a{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    line-height: 45px;
+}
+
+.footer{
+    height: 500px;
+    background-color: black;
+}
+
+.the_end{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.form input{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 50px;
+    width: 350px;
+    background-color: #444343;
+}
+
+.end{
+    text-align: center;
+    padding-top: 50px;
+}
+.end button{
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    color: #8BCAC3;
+    border-radius: 5px;
+}
+
+.end img{
+    padding-top: 20px;
+}
+.end h3{
+    color:#444343;
+}
+
+@media (max-width:420px){ 
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+
+    .menu ul{
+       display: block;
+        padding-left: 50px;
+        line-height: 30px;
+    }
+    .section{
+        height: 100vh;
+    }
+.sozdor p{
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+.cnopka{
+    margin-bottom: 50px;
+}
+
+.container{
+    display: block;
+    height: 1500px;
+}
+.tema h1{
+    text-align: center;
+}
+    .soz h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .soz span{
+        text-align: center;
+        font-size: 30px;
+    }
+    .block{
+        text-align: center;
+    }
+    .blok{
+        display: block;
+        line-height: 200px;
+    }
+    .time{
+        display: block;
+    }
+    .troya{
+        display: block;
+    }
+    .foot{
+        display: block;
+    }
+    .alty{
+        display: block;
+    }
+    .birbalya{
+        display: block;
+    }
+    .siniy{
+        display: block;
+    }
+}
