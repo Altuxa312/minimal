@@ -162,6 +162,22 @@ body{
     padding: 50px 80px;
 }
 
+.om img{
+    background-color: #dbdbdb;
+    padding: 50px 80px;
+}
+.om{
+    text-align: center;
+}
+
+.om h1{
+    font-size: 30px;
+}
+
+.om span{
+    font-size: 20px;
+}
+
 .foo{
     text-align: center;
 }
@@ -648,8 +664,19 @@ body{
 
 .container{
     display: block;
-    height: 1500px;
+    height: 1350px;
 }
+
+.mine img{
+    margin-top: 50px;
+}
+
+.mine span{
+gap: 0;
+
+    
+}
+
 .tema h1{
     text-align: center;
 }
@@ -665,11 +692,23 @@ body{
         text-align: center;
     }
     .blok{
-        display: block;
-        line-height: 200px;
+        padding: 0;
+        gap: 0;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
     .time{
         display: block;
+    }
+    .true{
+        display: block;
+        height: 3800px;
+    }
+    .five{
+        display: block;
+        height: 1700px;
     }
     .troya{
         display: block;
@@ -682,8 +721,12 @@ body{
     }
     .birbalya{
         display: block;
+       margin-left: 100px;
     }
     .siniy{
         display: block;
+    }
+    .goluboy{
+        height: 1200px;
     }
 }
